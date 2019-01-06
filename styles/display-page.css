@@ -1,0 +1,38 @@
+.mainbox {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	font-size: 0;
+}
+.mainbox > * {
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 0;
+}
+
+.green {
+	width: 50%;
+	background-color: green;
+	height: 200px;
+}
+
+.blue {
+	width: 50%;
+	background-color: blue;
+	height: 200px;
+}
+.grey {
+	width: 33.33%;
+	background-color: grey;
+	height: 300px;
+}
+.black {
+	width: 33.33%;
+	background-color: black;
+	height: 300px;
+}
+.yellow {
+	width: 33.33%;
+	background-color: yellow;
+	height: 300px;
+}
